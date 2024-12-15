@@ -1,0 +1,87 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
+
+/* Hide the arrows in number inputs for Chrome, Safari, Edge, and Opera */
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+/* Hide the arrows in number inputs for Firefox */
+input[type="number"] {
+    -moz-appearance: textfield;
+}
+
+/* Sidebar Scrollbar */
+.sidebar-scollbar {
+  overflow-y: auto; 
+  scrollbar-width: none; 
+}
+
+.sidebar-scollbar::-webkit-scrollbar {
+  width: 0px; 
+  background: transparent;
+}
+
+.sidebar-scollbar:hover::-webkit-scrollbar {
+  width: 5px;
+}
+
+.sidebar-scollbar:hover::-webkit-scrollbar-thumb {
+  background: #555; 
+  border-radius: 10px;
+}
+
+/* Firefox-specific scrollbar styles */
+.sidebar-scollbar {
+  scrollbar-color: transparent transparent;
+}
+
+.sidebar-scollbar:hover {
+  scrollbar-color: #bebcbc #f1f5f9; 
+  scrollbar-width: thin; 
+}
+
+
+/* Custom Scrollbar */
+.custom-scollbar {
+  overflow-y: auto; 
+  scrollbar-width: 10px; 
+}
+
+.custom-scollbar::-webkit-scrollbar {
+  width: 0px; 
+  background: transparent;
+}
+
+.custom-scollbar:hover::-webkit-scrollbar {
+  width: 5px;
+}
+
+.custom-scollbar:hover::-webkit-scrollbar-thumb {
+  background: #555; 
+  border-radius: 10px;
+}
+
+/* Firefox-specific scrollbar styles */
+.custom-scollbar {
+  scrollbar-color: transparent transparent;
+}
+
+.custom-scollbar:hover {
+  scrollbar-color: #bebcbc #f1f5f9; 
+  scrollbar-width: thin; 
+}
+.custom-scrollbar::-webkit-scrollbar-track {
+  background-color: #e5e7eb; /* Scrollbar track color */
+  border-radius: 10px; /* Rounded corners for scrollbar track */
+}
+
