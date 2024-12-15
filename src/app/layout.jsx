@@ -27,7 +27,7 @@ export default function RootLayout({ children }) {
         <UserProvider>
 
           {/* sidebar show/hide btn */}
-          <button onClick={() => setShowSidebar(true)} className={`${pathname == '/login' && 'hidden'} fixed top-[15px] left-4 z-50 text-2xl`}>
+          <button onClick={() => setShowSidebar(true)} className={`${pathname == '/login' && 'hidden'} fixed top-3 left-4 z-50 text-2xl`}>
             <RiMenu2Fill />
           </button>
 

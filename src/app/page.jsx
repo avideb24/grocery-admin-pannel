@@ -23,7 +23,7 @@ const Dashboard = async() => {
             <Wrapper>
 
                 {/* --------- counts -------- */}
-                <div className='grid grid-cols-3 gap-5 md:gap-10 pt-3 pb-8'>
+                <div className='grid grid-cols-3 gap-2 md:gap-10 pt-3 pb-8'>
 
                     {/* products */}
                     <Link href={'/products/list'} className='flex flex-col items-center gap-1 border border-slate-200 dark:border-slate-600 shadow-lg hover:shadow-xl p-3 font-bold rounded-md'>

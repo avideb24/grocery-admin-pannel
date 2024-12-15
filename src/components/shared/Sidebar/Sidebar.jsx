@@ -86,7 +86,7 @@ const Sidebar = ({ setShowSidebar }) => {
         <div className='w-full relative'>
 
             {/* ----------- sidebar hide btn ----------- */}
-            <button onClick={() => setShowSidebar(false)} className='absolute top-0 right-3 text-2xl text-red-600 lg:hidden'>
+            <button onClick={() => setShowSidebar(false)} className='absolute top-3 right-3 text-2xl text-red-600 lg:hidden'>
                 <FaSquareXmark />
             </button>
 
