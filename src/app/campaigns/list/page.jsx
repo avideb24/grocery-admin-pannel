@@ -10,6 +10,7 @@ const CampaignList = async () => {
 
     const campaignData = await getAllCampaigns();
 
+
     const getLocalDateTime = (isoDate) => {
         return new Date(isoDate).toLocaleString('en-US', {
             year: 'numeric',
