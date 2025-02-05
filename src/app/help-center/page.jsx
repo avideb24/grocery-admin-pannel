@@ -26,11 +26,11 @@ const HelpCenterPage = () => {
                     <div className="flex gap-4 py-2">
                         <p className="p-2 shadow-md flex items-end gap-1">
                             <TfiEmail className="text-lg md:text-2xl" />
-                            <span className="font-semibold pr-2">E-mail:</span>grocerymart@gmail.com
+                            <span className="font-semibold pr-2">E-mail:</span>rakib@vida.com.bd
                         </p>
                         <p className="p-2 shadow-md flex items-end gap-1">
                             <MdAddIcCall className="text-lg md:text-2xl" />
-                            <span className="font-semibold pr-2">Mobile:</span><a href="tel:+8801723622125" className="hover:underline">+8801723622125</a>
+                            <span className="font-semibold pr-2">Mobile:</span><a href="tel:+8801723622125" className="hover:underline">+880164144311</a>
                         </p>
                     </div>
                 </div>
