@@ -30,7 +30,7 @@ const HelpCenterPage = () => {
                         </p>
                         <p className="p-2 shadow-md flex items-end gap-1">
                             <MdAddIcCall className="text-lg md:text-2xl" />
-                            <span className="font-semibold pr-2">Mobile:</span><a href="tel:+8801723622125" className="hover:underline">+880164144311</a>
+                            <span className="font-semibold pr-2">Mobile:</span><a href="tel:+880164144311" className="hover:underline">+880164144311</a>
                         </p>
                     </div>
                 </div>
