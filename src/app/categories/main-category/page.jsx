@@ -11,6 +11,7 @@ import React from 'react';
 const MainCategoryPage = async () => {
 
     const mainCategories = await getMainCategories();
+    
 
     return (
         <>
